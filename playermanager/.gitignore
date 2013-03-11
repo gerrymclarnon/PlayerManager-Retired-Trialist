@@ -1,7 +1,0 @@
-*.class
-.svn
-
-# Package Files #
-*.jar
-*.war
-*.ear
