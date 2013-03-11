@@ -1,0 +1,194 @@
+#page_signin .container {
+	padding-top: 10em;
+	border-width: 0px;
+	border-color: #444;
+}
+
+.actions {
+	background: #f5f5f5;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	padding: 17px 20px 18px 150px;
+	border-top: 1px solid #ddd;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+
+form .clearfix {
+	margin-bottom: 18px;
+	zoom: 1;
+}
+
+form .clearfix:before,form .clearfix:after {
+	display: table;
+	content: "";
+	zoom: 1;
+}
+
+form .clearfix:after {
+	clear: both;
+}
+
+label {
+	padding-top: 6px;
+	font-size: 13px;
+	line-height: 18px;
+	float: left;
+	width: 130px;
+	text-align: right;
+	color: #404040;
+}
+
+form .input {
+	margin-left: 150px;
+}
+
+#page_signin
+	{
+	margin-top: 0;
+	padding-bottom: 80px;
+}
+
+#page_signin #signin {
+	width: 500px;
+	float: left;
+	margin-top: 0;
+}
+
+#page_signin #signin .title {
+	width: auto;
+	letter-spacing: -1px;
+	margin: 0;
+	border: 1px solid #ddd;
+	background: #f7f7f7 url("//s3.amazonaws.com/wrapbootstrap/live/imgs/darkgrain.png");
+	padding: 15px 30px;
+	font-size: 22px;
+	color: #444;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+}
+
+#page_signin #signin form {
+	margin: 0;
+}
+
+#page_signin #signin fieldset {
+	width: auto;
+	margin: 0;
+	padding: 30px 0 0 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+}
+
+#page_signin #signin .actions {
+	margin: 35px 0 0 0;
+}
+
+#page_signin #signin .reset {
+	margin: 6px 0 0 0;
+}
+
+#page_signin #signup {
+	width: 410px;
+	float: left;
+	margin-top: 0;
+	margin-left: 30px;
+}
+
+#page_signin #signup .title {
+	width: auto;
+	letter-spacing: -1px;
+	margin: 0;
+	border: 1px solid #ddd;
+	background: #f7f7f7 url("//s3.amazonaws.com/wrapbootstrap/live/imgs/darkgrain.png");
+	padding: 15px 30px;
+	font-size: 22px;
+	color: #444;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+}
+
+#page_signin #signup form {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#page_signin #signin fieldset {
+	margin: 0;
+	padding: 30px 0 0 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+}
+
+#page_signin #signup fieldset {
+	width: auto;
+	margin: 0;
+	padding: 15px 0 0 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+}
+
+#page_signin #signup .actions {
+	margin: 25px 0 0 0 !important;
+	padding-left: 30px;
+}
+
+#page_signin #signup .clearfix,#page_signin #signup .clearfix.error {
+	width: auto !important;
+	padding-top: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+
+#page_signin #signup label {
+	font-weight: bold;
+}
+
+#page_signin #signup div.input label {
+	font-weight: normal !important;
+}
+
+#page_signin #signup .clickedit {
+	color: #333 !important;
+	margin: 11px 0 5px 0;
+	font-family: Cambria, Georgia, serif;
+	font-size: 110%;
+	line-height: 120%;
+	padding: 8px 10px;
+	border: 1px dashed #e4e4e4;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#page_signin .help-block,#page_signin .error .help-block {
+	margin-top: 4px;
+	color: #aaa;
+}
+
+#page_signin .error .help-block.error {
+	margin-top: 4px;
+	color: #b94a48;
+}
+
+#page_signin .help-block a,#page_signin .help-inline a {
+	color: #777;
+	text-decoration: none;
+}
+
+#page_signin .help-block a:hover,#page_signin .help-inline a:hover {
+	color: #444;
+	text-decoration: underline;
+}
