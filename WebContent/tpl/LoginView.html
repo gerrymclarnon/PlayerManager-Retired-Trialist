@@ -1,0 +1,58 @@
+<div id="page_signin">
+	<div class="container">
+		<div class="content">
+			<div class="row">
+				<div class="span6 offset3">
+					<div class="row status-bar">
+					    <div class="span12">
+					        <div class="alert alert-error" style="display: none">
+					            <b>Oh no!</b> That didn't work... check your username and password.
+					        </div>
+					    </div>
+					</div>
+					<div id="signin">
+						<div class="title">Already a member? Sign in:</div>
+						<form name="signIn" method="post" class="form-horizontal">
+							<fieldset>
+								<div class="clearfix">
+									<label for="j_username"> <span>Username:</span>
+									</label>
+									<div class="input">
+										<input tabindex="1" id="j_username" name="j_username"
+											label="Username" value="" type="text" placeholder="username">
+									</div>
+								</div>
+
+								<div class="clearfix">
+									<label for="j_password"><span>Password:</span></label>
+									<div class="input">
+										<input tabindex="2" id="j_password" name="j_password"
+											label="Password" value="" type="password"
+											placeholder="password">
+									</div>
+								</div>
+
+								<div class="actions">
+									<input type="button" tabindex="3"
+										class="btn btn-primary btn-large"
+										value="Sign into your account" onclick="secureSignIn()">
+									<p class="reset">
+										Recover your <a tabindex="4" href="/signin/reset"
+											title="Recover your username or password">username or
+											password</a>
+									</p>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- /container -->
+
+</div>
+<!-- /subpage -->
+
+</div>

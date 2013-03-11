@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>playermanager</title>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	
+	<link href="./css/bootstrap.css" rel="stylesheet">
+	<link href="./css/bootstrap-responsive.css" rel="stylesheet">
+	
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800" rel="stylesheet">
+	<link href="./css/font-awesome.css" rel="stylesheet">
+	
+	<link href="./css/reboot-landing.css" rel="stylesheet">
+	<link href="./css/reboot-landing-responsive.css" rel="stylesheet">
+	<link href="./css/themes/green/theme.css" rel="stylesheet">
+	<link href="./css/fullcalendar.css" rel="stylesheet">
+	
+	<link href="./css/pages/login.css" rel="stylesheet">
+ 	
+	<link href="./js/lightbox/themes/default/jquery.lightbox.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="header"></div>
+
+<div id="subheader">
+	
+	<div class="inner">
+		
+		<div class="container">
+					
+			<h1 id="subheading">Sign in</h1>
+		
+		</div> <!-- /.container -->
+		
+	</div> <!-- /inner -->
+	
+</div> <!-- /subheader -->
+
+<div class="container">
+    <div class="row">
+        <div id="content"></div>
+    </div>
+
+    <footer class="footer">
+        <p class="pull-right"><a href="#home">Back Home</a></p>
+
+        <p>Built as a sample application with <a href="http://documentcloud.github.com/backbone/" target="_blank">Backbone.js</a>, 
+             <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a> and 
+             <a href="http://jersey.java.net/" target="_blank">Jersey</a>
+             by <a href="http://www.playermanager.net" target="_blank">Gerry McLarnon</a>.</p>
+    </footer>
+
+</div>
+
+<script src="lib/jquery-1.7.2.js"></script>
+<script src="lib/underscore-min.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="lib/bootstrap.js"></script>
+<script src="./js/lightbox/jquery.lightbox.min.js"></script>
+
+<script>
+if (navigator.appVersion.indexOf("Win")!=-1) 
+{
+  $('body').css('font-family','Arial');
+  $('input').css('font-family','Arial');
+  $('button').css('font-family','Arial');
+  $('select').css('font-family','Arial');
+  $('textarea').css('font-family','Arial');
+}	
+</script>
+ 
+<script src="js/utils.js"></script>
+<script src="js/models/models.js"></script>
+<script src="js/views/paginator.js"></script>
+<script src="js/views/header.js"></script>
+<script src="js/views/training.js"></script>
+<script src="js/views/PlayerList.js"></script>
+<script src="js/views/PlayerDetails.js"></script>
+<script src="js/views/about.js"></script>
+<script src="js/views/login.js"></script>
+<script src="js/main.js"></script>
+<script src="js/login.js"></script>
+<script src="js/toggleButton.js"></script>
+<script src="js/fullcalendar.js"></script>
+
+</body>
+</html>
