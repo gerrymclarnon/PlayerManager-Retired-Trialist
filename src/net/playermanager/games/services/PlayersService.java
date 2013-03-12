@@ -10,7 +10,6 @@ import net.playermanager.games.model.Player;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 
 @Service("playersService")
@@ -51,16 +50,7 @@ public class PlayersService extends AbstractService< Player > {
 		
 		return player;
 	}
-/*
-	public Player create(Player player)
-			throws IOException {
-		playerDAO.save(player);
 
-		securityService.updateAcl(player);
-		
-		return player;
-	}
-*/
 //	@PreAuthorize("hasPermission(#arg0, 'net.playermanager.games.model.Player', 'WRITE')")
 //	public Player getPlayer(Long id) {
 //		Player player = playerDAO.getById(id);
@@ -83,10 +73,4 @@ public class PlayersService extends AbstractService< Player > {
 		}
 		playerDAO.deleteById(id);
 	}
-/*
-	public Player update(Player player) {
-		playerDAO.update(player);
-		return player;
-	}
-	*/
 }
