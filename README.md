@@ -1,4 +1,4 @@
-PlayerManager - web services - proof of concept
-===============================================
+PlayerManager - trialist
+========================
 
-Proof of concept using Jersey, Spring, Hibernate & MySQL
+A single page app proof of concept using Bootstrap, Backbone, Jersey, Spring, Hibernate & MySQL
